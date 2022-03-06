@@ -18,7 +18,7 @@ namespace Infrastructure.Queues
             _logger = logger;
             _cloudQueues = cloudQueues;
         }
-        public async Task AddMessageAsync(object message)
+        public async Task AddMessageAsync(UserDetailsCommand message)
         {
             var serialisedbody = JsonConvert.SerializeObject(message);
 
@@ -40,9 +40,5 @@ namespace Infrastructure.Queues
 
             }
         }
-    }
-
-    public interface IStorageQueueClient
-    {
     }
 }

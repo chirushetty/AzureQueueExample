@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureQueueExample", "AzureQueueExample\AzureQueueExample.csproj", "{41CD41FD-6AF6-476D-901E-D00175622F7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{CE6EFEEC-294C-4586-B1FB-8CA4F8F1277D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{CE6EFEEC-294C-4586-B1FB-8CA4F8F1277D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
